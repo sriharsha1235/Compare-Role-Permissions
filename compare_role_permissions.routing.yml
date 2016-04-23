@@ -1,0 +1,8 @@
+
+compare_role_permissions.compare_roles_diff:
+  path: '/compare_roles/diff'
+  defaults:
+    _form: '\Drupal\compare_role_permissions\Form\RolesCompareForm'
+    _title: 'Compare Roles'
+  requirements:
+    _permission: 'access content'
